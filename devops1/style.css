@@ -1,0 +1,94 @@
+/* External CSS */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #f9f7ff, #efeaff);
+    color: #333;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #e4dcff;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+/* Hero section */
+
+.hero {
+    padding: 40px;
+}
+
+.profile-box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+/* Photo placeholder */
+
+.photo-placeholder {
+    width: 200px;
+    height: 200px;
+    background: #d8ccff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* About text */
+
+.about {
+    max-width: 600px;
+    font-size: 18px;
+}
+
+/* Cards */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: #f1ecff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e4dcff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5a45c9;
+    font-weight: bold;
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
